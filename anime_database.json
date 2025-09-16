@@ -32,7 +32,7 @@
       "autoscroll": true,
       "size": { "width": 500, "height": 450 },
       "images": [
-        { "url": "https://i.imgur.com/0Z6xW5f.jpg", "target": "detalle_01" },
+        { "url": "https://media.themoviedb.org/t/p/w500_and_h282_face/1RgPyOhN4DRs225BGTlHJqCudII.jpg", "target": "SinopsisActivity.java" },
         { "url": "https://i.imgur.com/3G3zZ4r.jpg", "target": "detalle_02" },
         { "url": "https://i.imgur.com/9QxWZ1D.jpg", "target": "detalle_03" },
         { "url": "https://i.imgur.com/5K7zT2P.jpg", "target": "detalle_04" },
@@ -43,7 +43,7 @@
       "title": "2025",
       "size": { "width": 250, "height": 150 },
       "images": [
-        { "url": "https://i.imgur.com/3G3zZ4r.jpg", "target": "2025_01" },
+        { "url": "https://media.themoviedb.org/t/p/w440_and_h660_face/aFRDH3P7TX61FVGpaLhKr6QiOC1.jpg", "target": "SinopsisActivity.java" },
         { "url": "https://i.imgur.com/9QxWZ1D.jpg", "target": "2025_02" },
         { "url": "https://i.imgur.com/5K7zT2P.jpg", "target": "2025_03" },
         { "url": "https://i.imgur.com/7J8xY3F.jpg", "target": "2025_04" },
