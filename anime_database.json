@@ -1,0 +1,97 @@
+{
+  "menu": [
+    {
+      "name": "Inicio",
+      "icon": "https://i.imgur.com/abcd123.jpg",
+      "target": "inicio"
+    },
+    {
+      "name": "Buscar",
+      "icon": "https://i.imgur.com/efgh456.jpg",
+      "target": "buscar"
+    },
+    {
+      "name": "Perfil",
+      "icon": "https://i.imgur.com/ijkl789.jpg",
+      "target": "perfil"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Destacado",
+      "autoscroll": true,
+      "size": { "width": 500, "height": 450 },
+      "images": [
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg", "target": "detalle1" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg", "target": "detalle2" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg", "target": "detalle3" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg", "target": "detalle4" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg", "target": "detalle5" }
+      ]
+    },
+    {
+      "title": "2025",
+      "size": { "width": 250, "height": 150 },
+      "images": [
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" }
+      ]
+    },
+    {
+      "title": "Acción",
+      "size": { "width": 250, "height": 150 },
+      "images": [
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" }
+      ]
+    },
+    {
+      "title": "Romance",
+      "size": { "width": 250, "height": 150 },
+      "images": [
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" }
+      ]
+    },
+    {
+      "title": "Comedy",
+      "size": { "width": 250, "height": 150 },
+      "images": [
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" },
+        { "url": "https://i.imgur.com/3G3zZ4r.jpg" },
+        { "url": "https://i.imgur.com/9QxWZ1D.jpg" },
+        { "url": "https://i.imgur.com/5K7zT2P.jpg" },
+        { "url": "https://i.imgur.com/7J8xY3F.jpg" },
+        { "url": "https://i.imgur.com/0Z6xW5f.jpg" }
+      ]
+    }
+  ]
+}
