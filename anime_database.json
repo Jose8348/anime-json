@@ -4,21 +4,27 @@
     { "titulo": "Anime 2", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
     { "titulo": "Anime 3", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
     { "titulo": "Anime 4", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
-    { "titulo": "Anime 5", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" }
+    { "titulo": "Anime 5", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
+    { "titulo": "Anime 6", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
+    { "titulo": "Anime 7", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" }
   ],
   "2025": [
-    { "titulo": "Anime 6", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
-    { "titulo": "Anime 7", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
-    { "titulo": "Anime 8", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
-    { "titulo": "Anime 9", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
-    { "titulo": "Anime 10", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" }
-  ],
-  "latino": [
+    { "titulo": "Anime 8", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 9", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
+    { "titulo": "Anime 10", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
     { "titulo": "Anime 11", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
     { "titulo": "Anime 12", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
     { "titulo": "Anime 13", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
-    { "titulo": "Anime 14", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
-    { "titulo": "Anime 15", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" }
+    { "titulo": "Anime 14", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" }
+  ],
+  "latino": [
+    { "titulo": "Anime 15", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 16", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
+    { "titulo": "Anime 17", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
+    { "titulo": "Anime 18", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 19", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
+    { "titulo": "Anime 20", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
+    { "titulo": "Anime 21", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" }
   ],
   "categorias": [
     { "nombre": "Acción", "color": "#FF0000" },
@@ -30,6 +36,8 @@
     { "nombre": "Terror", "color": "#800080" },
     { "nombre": "Ciencia Ficción", "color": "#0000FF" },
     { "nombre": "Deportes", "color": "#A52A2A" },
-    { "nombre": "Misterio", "color": "#808080" }
+    { "nombre": "Misterio", "color": "#808080" },
+    { "nombre": "Histórico", "color": "#FFD700" },
+    { "nombre": "Musical", "color": "#FF69B4" }
   ]
-}
+    }
