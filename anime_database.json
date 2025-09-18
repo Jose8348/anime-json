@@ -1,42 +1,35 @@
 {
-  "populares": [
-    { "titulo": "One Piece",          "imagen": "file:///storage/emulated/0/anime/pop1.jpg" },
-    { "titulo": "Naruto",             "imagen": "file:///storage/emulated/0/anime/pop2.jpg" },
-    { "titulo": "Attack on Titan",    "imagen": "file:///storage/emulated/0/anime/pop3.jpg" },
-    { "titulo": "Demon Slayer",       "imagen": "file:///storage/emulated/0/anime/pop4.jpg" },
-    { "titulo": "Jujutsu Kaisen",     "imagen": "file:///storage/emulated/0/anime/pop5.jpg" }
+  "episodioReciente": [
+    { "titulo": "Anime 1", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
+    { "titulo": "Anime 2", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
+    { "titulo": "Anime 3", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
+    { "titulo": "Anime 4", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" },
+    { "titulo": "Anime 5", "imagen": "https://media.themoviedb.org/t/p/w500_and_h282_face/aGYVOLanNjLTvqlfdyp0mKBdFKH.jpg" }
   ],
   "2025": [
-    { "titulo": "Anime 2025 A",       "imagen": "file:///storage/emulated/0/anime/2025_1.jpg" },
-    { "titulo": "Anime 2025 B",       "imagen": "file:///storage/emulated/0/anime/2025_2.jpg" },
-    { "titulo": "Anime 2025 C",       "imagen": "file:///storage/emulated/0/anime/2025_3.jpg" },
-    { "titulo": "Anime 2025 D",       "imagen": "file:///storage/emulated/0/anime/2025_4.jpg" },
-    { "titulo": "Anime 2025 E",       "imagen": "file:///storage/emulated/0/anime/2025_5.jpg" }
+    { "titulo": "Anime 6", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 7", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
+    { "titulo": "Anime 8", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
+    { "titulo": "Anime 9", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 10", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" }
   ],
   "latino": [
-    { "titulo": "Anime Latino 1",     "imagen": "file:///storage/emulated/0/anime/latino1.jpg" },
-    { "titulo": "Anime Latino 2",     "imagen": "file:///storage/emulated/0/anime/latino2.jpg" },
-    { "titulo": "Anime Latino 3",     "imagen": "file:///storage/emulated/0/anime/latino3.jpg" },
-    { "titulo": "Anime Latino 4",     "imagen": "file:///storage/emulated/0/anime/latino4.jpg" },
-    { "titulo": "Anime Latino 5",     "imagen": "file:///storage/emulated/0/anime/latino5.jpg" }
-  ],
-  "favorito": [
-    { "titulo": "Anime Favorito 1",   "imagen": "file:///storage/emulated/0/anime/fav1.jpg" },
-    { "titulo": "Anime Favorito 2",   "imagen": "file:///storage/emulated/0/anime/fav2.jpg" },
-    { "titulo": "Anime Favorito 3",   "imagen": "file:///storage/emulated/0/anime/fav3.jpg" },
-    { "titulo": "Anime Favorito 4",   "imagen": "file:///storage/emulated/0/anime/fav4.jpg" },
-    { "titulo": "Anime Favorito 5",   "imagen": "file:///storage/emulated/0/anime/fav5.jpg" }
+    { "titulo": "Anime 11", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 12", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" },
+    { "titulo": "Anime 13", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/sUsVimPdA1l162FvdBIlmKBlWHx.jpg" },
+    { "titulo": "Anime 14", "imagen": "https://media.themoviedb.org/t/p/w220_and_h330_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg" },
+    { "titulo": "Anime 15", "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg" }
   ],
   "categorias": [
-    { "nombre": "Acción",             "color": "#FF0000" },
-    { "nombre": "Comedia",            "color": "#00FF00" },
-    { "nombre": "Romance",            "color": "#FFC0CB" },
-    { "nombre": "Drama",              "color": "#800080" },
-    { "nombre": "Fantasía",           "color": "#FFA500" },
-    { "nombre": "Ciencia Ficción",    "color": "#00CED1" },
-    { "nombre": "Terror",             "color": "#000000" },
-    { "nombre": "Aventura",           "color": "#1E90FF" },
-    { "nombre": "Deportes",           "color": "#FFD700" },
-    { "nombre": "Misterio",           "color": "#8B4513" }
+    { "nombre": "Acción", "color": "#FF0000" },
+    { "nombre": "Aventura", "color": "#FFA500" },
+    { "nombre": "Comedia", "color": "#FFFF00" },
+    { "nombre": "Drama", "color": "#008000" },
+    { "nombre": "Fantasía", "color": "#00FFFF" },
+    { "nombre": "Romance", "color": "#FFC0CB" },
+    { "nombre": "Terror", "color": "#800080" },
+    { "nombre": "Ciencia Ficción", "color": "#0000FF" },
+    { "nombre": "Deportes", "color": "#A52A2A" },
+    { "nombre": "Misterio", "color": "#808080" }
   ]
-    }
+}
