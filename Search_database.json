@@ -1,0 +1,40 @@
+{
+  "2025": [
+    {
+      "titulo": "Kimetsu no Yaiba: Nueva Temporada",
+      "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/6ZS8SOno6kTmWz4eQ8lX8EBXOMv.jpg",
+      "direccion": "sinopsis/kimetsu-no-yaiba-nueva-temporada"
+    },
+    {
+      "titulo": "Jujutsu Kaisen 3",
+      "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg",
+      "direccion": "sinopsis/jujutsu-kaisen-3"
+    }
+  ],
+  "latino": [
+    {
+      "titulo": "One Piece",
+      "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/1.jpg",
+      "direccion": "sinopsis/one-piece"
+    },
+    {
+      "titulo": "Naruto Shippuden",
+      "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/2.jpg",
+      "direccion": "sinopsis/naruto-shippuden"
+    }
+  ],
+  "buscador": [
+    {
+      "titulo": "Sousou no Frieren",
+      "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/4.jpg",
+      "categoria": "Drama",
+      "direccion": "sinopsis/sousou-no-frieren"
+    },
+    {
+      "titulo": "Steins;Gate",
+      "imagen": "https://media.themoviedb.org/t/p/w440_and_h660_face/6.jpg",
+      "categoria": "Ciencia Ficción",
+      "direccion": "sinopsis/steins-gate"
+    }
+  ]
+}
