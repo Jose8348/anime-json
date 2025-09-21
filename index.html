@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi App</title>
+
+<!-- Biblioteca de animaciones -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- Biblioteca de iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+<style>
+  body { margin:0; font-family:sans-serif; background:#0b0b0e; color:#fff; }
+  .section { padding:14px; }
+  .section-title { font-size:18px; font-weight:bold; margin-bottom:10px; display:flex; align-items:center; gap:8px; }
+  /* Slider Destacados */
+  .slider { position:relative; width:100%; height:500px; overflow:hidden; border-radius:12px; }
+  .slides { display:flex; width:100%; height:100%; transition:transform 0.6s ease; }
+  .slide { min-width:100%; height:100%; }
+  .slide img { width:100%; height:100%; object-fit:cover; }
+  /* Scroll horizontal */
+  .h-scroll { display:flex; gap:12px; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .card { flex:0 0 auto; width:150px; height:250px; border-radius:14px; overflow:hidden; background:#141419; transition:transform 0.3s ease; }
+  .card:hover { transform:scale(1.05); }
+  .card img { width:100%; height:100%; object-fit:cover; }
+  /* Chips categorías */
+  .chips { display:flex; gap:12px; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .chip { flex:0 0 auto; padding:12px 16px; border-radius:999px; font-weight:bold; background:linear-gradient(135deg,#6a11cb,#2575fc); box-shadow:0 6px 16px rgba(0,0,0,0.4); transition:transform 0.3s ease; display:flex; align-items:center; gap:6px; }
+  .chip:hover { transform:scale(1.05); }
+  /* Barra navegación inferior */
+  .nav { position:fixed; bottom:0; left:0; right:0; height:60px; background:#141419; display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid rgba(255,255,255,0.1); }
+  .nav a { display:flex; flex-direction:column; align-items:center; justify-content:center; color:#aaa; text-decoration:none; font-size:12px; transition:color 0.3s ease; }
+  .nav a.active, .nav a:hover { color:#fff; }
+</style>
+</head>
+<body>
+
+<div class="section animate__animated animate__fadeInDown">
+  <div class="section-title"><i class="fa-solid fa-star"></i>Destacados</div>
+  <div class="slider" id="slider">
+    <div class="slides" id="slides">
+      <div class="slide"><img src="https://picsum.photos/id/1015/1600/900" alt=""></div>
+      <div class="slide"><img src="https://picsum.photos/id/1025/1600/900" alt=""></div>
+      <div class="slide"><img src="https://picsum.photos/id/1035/1600/900" alt=""></div>
+      <div class="slide"><img src="https://picsum.photos/id/1043/1600/900" alt=""></div>
+      <div class="slide"><img src="https://picsum.photos/id/1050/1600/900" alt=""></div>
+    </div>
+  </div>
+</div>
+
+<div class="section animate__animated animate__fadeInUp">
+  <div class="section-title"><i class="fa-solid fa-calendar"></i>2025</div>
+  <div class="h-scroll">
+    <div class="card"><img src="https://picsum.photos/id/1024/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1039/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1069/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1074/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1084/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1080/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1003/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1005/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1006/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1011/800/600" alt=""></div>
+  </div>
+</div>
+
+<div class="section animate__animated animate__fadeInUp">
+  <div class="section-title"><i class="fa-solid fa-globe"></i>Latino</div>
+  <div class="h-scroll">
+    <div class="card"><img src="https://picsum.photos/id/1012/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1013/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1014/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1016/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1018/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1020/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1027/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1035/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1038/800/600" alt=""></div>
+    <div class="card"><img src="https://picsum.photos/id/1041/800/600" alt=""></div>
+  </div>
+</div>
+
+<div class="section animate__animated animate__fadeInUp">
+  <div class="section-title"><i class="fa-solid fa-list"></i>Categoría</div>
+  <div class="chips">
+    <div class="chip"><i class="fa-solid fa-dragon"></i>Shonen</div>
+    <div class="chip"><i class="fa-solid fa-user-ninja"></i>Seinen</div>
+    <div class="chip"><i class="fa-solid fa-hat-wizard"></i>Isekai</div>
+    <div class="chip"><i class="fa-solid fa-heart"></i>Romance</div>
+    <div class="chip"><i class="fa-solid fa-face-laugh"></i>Comedia</div>
+    <div class="chip"><i class="fa-solid fa-bolt"></i>Acción</div>
+    <div class="chip"><i class="fa-solid fa-map"></i>Aventura</div>
+    <div class="chip"><i class="fa-solid fa-wand-magic-sparkles"></i>Fantasía</div>
+    <div class="chip"><i class="fa-solid fa-robot"></i>Mecha</div>
+    <div class="chip"><i class="fa-solid fa-brain"></i>Psicológico</div>
+    <!-- ... puedes seguir con más categorías -->
+  </div>
+</div>
+
+<!-- Barra de navegación inferior -->
+<nav class="nav animate__animated animate__fadeInUp">
+  <a href="#" class="active"><i class="fa-solid fa-house"></i><span>Inicio</span></a>
+  <a href="#"><i class="fa-solid fa-folder"></i><span>Categoría</span></a>
+  <a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Buscar</span></a>
+  <a href="#"><i class="fa-solid fa-user"></i><span>Perfil</span></a>
+</nav>
+
+<script>
+  // Slider automático
+  let index = 0;
+  const slides = document.getElementById('slides');
+  const total = slides.children.length;
+  setInterval(() => {
+    index = (index + 1) % total;
+    slides.style.transform = `translateX(${-index * 100}%)`;
+  }, 3000);
+</script>
+
+</body>
+</html>
